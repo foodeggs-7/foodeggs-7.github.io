@@ -477,7 +477,7 @@ section img {
 	
 	position-anchor: --Hud-Anchor;
 	position-area: bottom center;
-	top: calc(100vh - 105px);
+	top: calc(100vmin - 105px);
 
 	
 }
@@ -488,7 +488,7 @@ section img {
 }
 
 #Weapon:hover {
-    top: calc(100vh - 110px);
+    top: calc(100vmin - 110px);
 }
 
 .WeaponEquiped {
