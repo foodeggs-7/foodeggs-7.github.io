@@ -110,10 +110,11 @@ body {
 }
 
 .main div:nth-child(2) p {
-    width: 500px;
-    height: auto;
-    font-size: clamp(2em, 16px, 3rem);
-    text-align: center;
+    width: 90%;
+    height: 100%;
+    font-size: clamp(1em, 16px, 30px);
+    text-align: justify;
+    align-content: center;
 }
 
 .main figure img:hover {
