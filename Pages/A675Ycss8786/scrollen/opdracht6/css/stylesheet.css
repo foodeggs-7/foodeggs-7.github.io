@@ -64,10 +64,10 @@ body {
 
 .main {
     position: absolute;
-    left: 10vw;
-    bottom: calc(50vh - 250px);
+    left: 10lvw;
+    bottom: calc(50lvh - 250px);
     z-index: 1000;
-    width: 80vw;
+    width: 80lvw;
     height: 500px;
     background-color: rgba(127, 255, 212, 0.7);
     border-radius: 10px;
@@ -126,9 +126,9 @@ body {
 @media (max-width: 800px) {
 
     .main {
-        left: 10vw;
-        bottom: calc(50vh - 125px);
-        width: 80vw;
+        left: 10lvw;
+        bottom: calc(50lvh - 125px);
+        width: 80lvw;
         height: 250px;
         border-radius: 10px;
     }
