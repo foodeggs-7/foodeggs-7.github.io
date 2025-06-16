@@ -475,8 +475,9 @@ section img {
 
 	position: absolute;
 	
-	position-anchor: --Hud-Anchor;
-	position-area: bottom center;
+	/* position-anchor: --Hud-Anchor;
+	position-area: bottom center; */
+	transform: translateX(calc(50vw - 50px));
 	top: calc(100vmin - 105px);
 
 	
