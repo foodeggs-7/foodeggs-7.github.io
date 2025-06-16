@@ -54,7 +54,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100svh;
+	height: 100vmin;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
@@ -428,7 +428,7 @@ section img {
 	left: 0px;
 	top: 0px;
 	width: 100svw;
-	height: 100svh;
+	height: 100vmin;
 	pointer-events: none;
 	
 	anchor-name: --Hud-Anchor;
@@ -503,7 +503,7 @@ section img {
 	left: 0px;
 	top: 0px;
 	width: 100svw;
-	height: 100svh;
+	height: 100vmin;
 	background-color: var(--Background);
 	
 	/* anchor-name: --Hud-Anchor; */
