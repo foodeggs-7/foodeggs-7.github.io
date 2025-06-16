@@ -76,7 +76,7 @@ main {
 
 section {
 	width: 100vw;
-	height: 100vh;
+	height: 100vmin;
 	position: relative;
 	scroll-snap-align: center;
 }
