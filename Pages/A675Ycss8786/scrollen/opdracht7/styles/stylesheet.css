@@ -54,7 +54,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100vmax;
+	height: 100vmin;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
