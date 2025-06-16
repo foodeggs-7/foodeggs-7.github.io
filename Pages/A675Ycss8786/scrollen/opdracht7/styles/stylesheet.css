@@ -54,7 +54,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100vmin;
+	height: 100vmax;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
@@ -477,8 +477,8 @@ section img {
 	
 	/* position-anchor: --Hud-Anchor;
 	position-area: bottom center; */
-	transform: translateX(calc(50vw - 50px));
-	top: calc(100vmin - 105px);
+	transform: translate(calc(50vw - 50px), calc(100vmin - 105px));
+	/* top: calc(100vmin - 105px); */
 
 	
 }
@@ -489,7 +489,7 @@ section img {
 }
 
 #Weapon:hover {
-    top: calc(100vmin - 110px);
+    transform: translate(calc(50vw - 50px), calc(100vmin - 110px));
 }
 
 .WeaponEquiped {
@@ -566,6 +566,14 @@ section img {
 }
 
 @media (max-width: 460px){
+	section {
+		height: 100vmax;
+	}
+
+	.HUD {
+		height: 100vmax;
+	}	
+
 	#Tutorial_Back {
 		left: 20px;
 		bottom: 20px;
@@ -581,7 +589,7 @@ section img {
 	}
 	#TutorialHud_Img {
 		width: 100vw;
-		height: 100vw;
+		height: 100vmin;
 	}
 
 	#TutorialHud_Desc {
@@ -594,12 +602,15 @@ section img {
 	#Weapon {
 		width: 100px;
 		height: 100px;
-		top: calc(100vh - 165px);
-		left: calc(100vw - 105px);
-		position-area: bottom right;
+		/* top: calc(100vmin - 165px);
+		left: calc(100vw - 105px); */
+
+		transform: translate(calc(100vw - 105px), calc(100vmax - 165px));
 	}
 
 	#Weapon:hover {
-    	top: calc(100vh - 170px);
+    	/* top: calc(100vmin - 170px); */
+		transform: translate(calc(100vw - 105px), calc(100vmax - 170px));
+
 	}	
 }
