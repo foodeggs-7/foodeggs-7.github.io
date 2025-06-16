@@ -129,8 +129,8 @@ body {
 @media (max-width: 800px) {
 
     .main {
-        left: 10lvw;
-        bottom: calc(50lvh - 125px);
+        /* left: 10lvw;
+        bottom: calc(50lvh - 125px); */
         width: 80lvw;
         height: 250px;
         border-radius: 10px;
