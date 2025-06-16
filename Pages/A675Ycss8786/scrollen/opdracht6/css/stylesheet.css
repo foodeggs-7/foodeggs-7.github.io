@@ -63,7 +63,7 @@ body {
 }
 
 .main {
-    position: absolute;
+    position: fixed;
     left: 10lvw;
     bottom: calc(50lvh - 250px);
     z-index: 1000;
