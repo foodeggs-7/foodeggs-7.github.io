@@ -38,7 +38,7 @@
 }
 
 * {
-  outline: 1px solid whitesmoke;
+  outline: 1px solid blue;
 }
 
 html, body {
@@ -57,7 +57,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100%;
+	height: 100vmax;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
@@ -79,7 +79,7 @@ main {
 
 section {
 	width: 100vw;
-	height: 100vh;
+	height: 100svh;
 	position: relative;
 	scroll-snap-align: center;
 }
