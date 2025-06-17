@@ -38,7 +38,7 @@
 }
 
 * {
-  outline: 1px solid red;
+  outline: 1px solid yellow;
 }
 
 html, body {
@@ -57,7 +57,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100vmin;
+	height: 100%;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
@@ -79,7 +79,7 @@ main {
 
 section {
 	width: 100vw;
-	height: 100%;
+	height: 100vh;
 	position: relative;
 	scroll-snap-align: center;
 }
@@ -475,7 +475,7 @@ section img {
 	background: transparent;
 	border-radius: 10px;
 
-	position: absolute;
+	position: fixed;
 	
 	/* position-anchor: --Hud-Anchor;
 	position-area: bottom center; */
@@ -568,13 +568,13 @@ section img {
 }
 
 @media (max-width: 460px){
-	section {
+	/* section {
 		height: 100vmax;
-	}
+	} */
 
-	.HUD {
+	/* .HUD {
 		height: 100vmax;
-	}	
+	}	 */
 
 	#Tutorial_Back {
 		left: 20px;
@@ -607,12 +607,12 @@ section img {
 		/* top: calc(100vmin - 165px);
 		left: calc(100vw - 105px); */
 
-		transform: translate(calc(100vw - 105px), calc(100vmax - 165px));
+		transform: translate(calc(100vw - 105px), calc(100% - 165px));
 	}
 
 	#Weapon:hover {
     	/* top: calc(100vmin - 170px); */
-		transform: translate(calc(100vw - 105px), calc(100vmax - 170px));
+		transform: translate(calc(100vw - 105px), calc(100% - 170px));
 
 	}	
 }
