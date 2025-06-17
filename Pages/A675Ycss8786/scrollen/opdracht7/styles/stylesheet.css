@@ -38,7 +38,7 @@
 }
 
 * {
-  outline: 1px solid blue;
+  outline: 1px solid green;
 }
 
 html, body {
@@ -57,7 +57,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100lvh;
+	height: 100%;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
@@ -214,7 +214,7 @@ section img {
 	height: 100px;
 	position: fixed;
 	left: calc(50vw - 50px);
-	top: calc(50vh - 50px);
+	top: calc(50lvh - 50px);
 }
 
 .character img {
