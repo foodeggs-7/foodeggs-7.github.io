@@ -296,8 +296,9 @@ section img {
 	/* left: 50%;
 	top: 50%; */
 
-	transform: translate(calc(50vw - clamp(100px, 150px, 250px)), calc(-50vmin -  clamp(100px, 150px, 250px)));
+	transform: translate(calc(50vw - clamp(100px, 150px, 250px)));
 
+	bottom: calc(50vmin -  clamp(100px, 150px, 250px));
 	z-index: 100;
 
 	border-radius: 10px;
