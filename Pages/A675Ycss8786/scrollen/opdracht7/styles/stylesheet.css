@@ -37,6 +37,9 @@
 	--Green: rgb(0, 70, 0);
 }
 
+* {
+  outline: 1px solid red;
+}
 
 html, body {
 	background-color: black;
