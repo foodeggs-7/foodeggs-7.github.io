@@ -41,7 +41,7 @@
 html, body {
 	background-color: black;
 	width: 100vw;
-	height: 100svh;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 
@@ -293,8 +293,7 @@ section img {
 	/* left: 50%;
 	top: 50%; */
 
-	position-anchor: --library-WeaponEquip-Anchor;
-	position-area: center;
+	transform: translate(calc(50vw - clamp(100px, 150px, 250px)), calc(-50vmin -  clamp(100px, 150px, 250px)));
 
 	z-index: 100;
 
@@ -428,7 +427,7 @@ section img {
 	left: 0px;
 	top: 0px;
 	width: 100svw;
-	height: 100vmin;
+	height: 100%;
 	pointer-events: none;
 	
 	anchor-name: --Hud-Anchor;
@@ -504,7 +503,7 @@ section img {
 	left: 0px;
 	top: 0px;
 	width: 100svw;
-	height: 100vmin;
+	height: 100%;
 	background-color: var(--Background);
 	
 	/* anchor-name: --Hud-Anchor; */
