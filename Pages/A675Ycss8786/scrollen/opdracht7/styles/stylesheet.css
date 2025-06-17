@@ -57,7 +57,7 @@ html, body {
 
 main {
 	width: 100svw;
-	height: 100%;
+	height: 100lvh;
 	display: grid;
 	grid-template-areas:
 		'level-1-1 level-2-1 level-3-1 level-4-1'
@@ -285,7 +285,7 @@ section img {
 /*equip*/
 .EquipPopup {
 	display: flex;
-	visibility: hidden;
+	visibility: visible;
 	flex-direction: column;
 	position: absolute;
 	background-color: var(--TransparantBackground);
@@ -479,9 +479,9 @@ section img {
 	
 	/* position-anchor: --Hud-Anchor;
 	position-area: bottom center; */
-	transform: translate(calc(50vw - 50px), calc(100vmin - 105px));
+	transform: translate(calc(50vw - 50px));
 	/* top: calc(100vmin - 105px); */
-
+	bottom: 5px;
 	
 }
 
@@ -491,7 +491,7 @@ section img {
 }
 
 #Weapon:hover {
-    transform: translate(calc(50vw - 50px), calc(100vmin - 110px));
+    bottom: 10px;
 }
 
 .WeaponEquiped {
