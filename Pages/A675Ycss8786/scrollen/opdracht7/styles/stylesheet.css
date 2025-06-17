@@ -37,9 +37,9 @@
 	--Green: rgb(0, 70, 0);
 }
 
-* {
+/* * {
   outline: 1px solid blue;
-}
+} */
 
 html, body {
 	background-color: black;
@@ -285,7 +285,7 @@ section img {
 /*equip*/
 .EquipPopup {
 	display: flex;
-	visibility: visible;
+	visibility: hidden;
 	flex-direction: column;
 	position: absolute;
 	background-color: var(--TransparantBackground);
@@ -502,7 +502,7 @@ section img {
 /* tutorial */
 
 .TutorialHud {
-	visibility: hidden;
+	visibility: visible;
 	position: fixed;
 	left: 0px;
 	top: 0px;
